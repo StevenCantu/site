@@ -9,10 +9,18 @@
 }
 
 p {
-    font-size: 130%;
+    font-size: 100%;
     color: white;
 }
 
 #index > ul {
     list-style-type: none;
+}
+
+
+
+@media (min-width: 1200px) {
+    p {
+        width: 80%;
+    }
 }
